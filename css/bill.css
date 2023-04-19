@@ -1,0 +1,214 @@
+.vcb__header--bill
+{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        color:#fff;
+        position: relative;
+        background-color: rgba(13, 29, 36,.9);
+        z-index: -2;
+}
+.vcb__header--bill::after{
+        content:"";
+        position: absolute;
+        height:1px;
+        width:100%;
+        bottom:0px;
+        left:0;
+        background-color: var(--text-color);
+        width: 380px;
+        margin-left: 20px;
+}
+.vcb__header--home 
+{
+        display:block;
+        font-size: 20px;
+        color:#fff;
+        margin-left:350px;
+        margin-top: 70px;
+        z-index: 1001;
+        cursor: pointer;
+}
+.vcb__header--logo
+{
+        color:#fff;
+        display:flex;
+        margin:auto;
+        line-height: 50px;
+}
+.vcb__header--VCB
+{
+        font-size: 24px;
+}
+.vcb__header--DGB{
+        font-size: 20px;
+}
+.vcb__header--check ::after{
+        content:"";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color: #fff;
+        z-index: -1;
+}
+.vcb__header--check {
+        margin:15px auto;
+        color:var(--primary-color);
+        font-size: 50px;
+        position: relative;
+}
+.vcb__header--success
+{
+        margin:15px auto;
+        font-size: 16px;
+
+}
+.vcb__descrription
+{
+        color:#fff;
+        background-color: rgba(13, 29, 36,.9);
+}
+.vcb__descrription--name
+{
+        box-sizing: content-box;
+        font-size: 15px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        position: relative;
+        min-height:60px;
+        width:380px;
+        margin:auto;
+}
+.vcb__descrription--bankk{
+        box-sizing: content-box;
+        font-size: 15px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        position: relative;
+        min-height:60px;
+        width:380px;
+        margin:auto;
+        padding:10px 0;
+}
+.vcb__descrription--bankk::after{
+        content:"";
+        position: absolute;
+        height:0.5px;
+        width:100%;
+        bottom:-0.5px;
+        left:0;
+        background-color: var(--text-color);
+}
+.vcb__descrription--name::after{
+        content:"";
+        position: absolute;
+        height:0.5px;
+        width:100%;
+        bottom:-0.5px;
+        left:0;
+        background-color: var(--text-color);
+}
+.vcb__descrription--name-1
+{
+        color:rgb(194, 200, 203);
+        line-height: 60px;
+        text-align: center;
+
+}
+.vcb__descrription--value{
+        line-height: 60px;
+        text-align: center;
+        font-size: 16px;
+}
+
+.vcb__descrription--btn
+{
+        width:56px;
+        height:34px;
+        border-radius: 20px;
+        border:2px solid  var(--text-color);
+        background-color: transparent;
+        position: relative;
+        transition: .5s;
+}
+.vcb__descrription--circle{
+        position: absolute;
+        content:"";
+        left:1px;
+        top:1px;
+        width:27px;
+        height:27px;
+        border-radius: 50%;
+        background-color: #fff;
+}
+.vcb__footer
+{
+        margin:auto;
+        color:#fff;
+        background-color: rgba(13, 29, 36,.9);
+        width:100%;
+        padding-bottom: 80px;
+}
+.vcb__footer--list
+{
+        list-style: none;
+        display:flex;
+        justify-content: space-around;
+        margin:40px;
+}
+.vcb__footer--items
+{
+        width:40px;
+        height:40px;
+        border-radius: 10px;
+        background-color: var(--text-color);
+}
+.vcb__footer--img{
+        width:45px;
+        height:45px;
+}
+.vcb__containter--btn{
+        margin:30px auto;
+}
+.vcb__containter--newbill
+{
+        margin:auto;
+        font-size: 14px;
+        width: 370px;
+        border-radius:6px;
+        padding: 12px 0;
+}
+
+.money{
+        margin:auto;
+        color:var(--primary-color);
+        font-size: 24px;
+}
+
+.date{
+        margin:10px auto 30px auto;
+        color:rgb(194, 200, 203);
+        color:var(--text-color);
+}
+/*  */
+.bankname{
+        max-width: 180px;
+        text-align: right;
+
+}
+/* .nameTXT{
+}
+.idTXT{
+
+} */
+.descriptionTXT{
+        text-align:right;
+        width:120px;
+}

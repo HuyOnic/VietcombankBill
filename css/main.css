@@ -1,0 +1,219 @@
+.vcb__header{
+        width:414px;
+        display:flex;
+        justify-content: space-between;
+        background-image: var(--btn-color);
+        padding:40px 20px 10px 20px;
+}
+.vcb__header--back{
+        color:#fff;
+        font-size: 20px;
+}
+.vcb__header--title{
+        color:#fff;
+        font-size: 16px;
+        width: 330px;
+}
+.vcb__container
+{
+        box-sizing: content-box;
+        width: 100%;
+        margin:auto;
+        position: relative;
+        background-color: rgba(13, 29, 36,.9);
+}
+
+.vcb__containter-1
+{
+        width: 380px;
+        margin:auto;
+}
+.vcb__container--text
+{
+        color:var(--text-color);
+        margin:10px 0;
+        font-size: 500;
+}
+.vcb__container--select
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__container--option
+{
+        color:var(--primary-color);
+}
+.vcb__containter--footer
+{
+        display:flex;
+        justify-content: flex-start;
+        margin:10px 0;
+}
+.vcb__containter__footer-text
+{
+        color:var(--primary-color);
+        font-weight: 600;
+}
+.vcb__containter-2
+{
+        width: 380px;
+        margin:auto;
+}
+.vcb__containter--info
+{
+        color:#fff;
+        font-size: 16px;
+        display:flex;
+        margin-bottom: 15px;
+        margin-top: 25px;
+}
+.vcb__containter--info-text
+{
+        margin:0 10px;
+}
+.vcb__containter--account
+{
+        color:var(--text-color);
+}
+.vcb__containter--id-select
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--footer-2
+{
+        display:flex;
+        justify-content: space-between;
+}
+.vcb__containter-3
+{
+        display:flex;
+        flex-direction: column;
+}
+.vcb__containter--beneficiary
+{
+        margin-top:40px;
+        margin-bottom: 20px;
+}
+.vcb__containter--beneficiary-info
+{
+        color:#fff;
+        font-size: 16px;
+}
+.vcb__containter--bank-select
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--text-color);
+        font-size: 15px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--number-account
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--name-account
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+
+.vcb__containter--transaction
+{
+        color:#fff;
+        font-size: 16px;
+        display: flex;
+        margin-top:20px;
+        margin-bottom:15px;
+}
+.vcb__containter--money
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--description
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--return
+{
+        width:380px;
+        border-radius: 8px;
+        color:var(--primary-color);
+        font-size: 16px;
+        outline: none;
+        margin:10px 0;
+        padding:10px;
+        font-weight: 600;
+}
+.vcb__containter--btn
+{
+        display:block;
+        width:380px;
+        border-radius: 4px;
+        color:#fff;
+        font-size: 16px;
+        outline: none;
+        margin:20px 0;
+        padding: 12px;
+        background-image: var(--btn-color);
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        z-index: 10;
+}
+.vcb__containter--newbill{
+        display:block;
+        width:380px;
+        border-radius: 4px;
+        color:#fff;
+        font-size: 16px;
+        outline: none;
+        margin:20px 0;
+        padding:10px;
+        background-image: var(--btn-color);
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+}
